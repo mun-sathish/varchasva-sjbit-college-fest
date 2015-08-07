@@ -1,0 +1,778 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/AS/varva/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="branch">
+        <item>CSE</item>
+        <item>ISE</item>
+        <item>MECH</item>
+        <item>CIVIL</item>
+        <item>ECE</item>
+        <item>EEE</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="date">
+        <item>2015/04/17</item>
+        <item>2015/04/18</item>
+    </string-array>
+    <string-array name="event">
+        <item>ADAPTIVE SOLO DANCE (DANCE)</item>
+        <item>ANTAKSHARI (INFORMAL)</item>
+        <item>BATTLE OF THE BANDS (MUSIC)</item>
+        <item>CALL OF DUTY 4 (GAMING)</item>
+        <item>COLLAGE (INFORMAL)</item>
+        <item>COUNTER STRIKE (GAMING)</item>
+        <item>CREATIVE WRIING (MIND TALENTED)</item>
+        <item>DOTA 2 (GAMING)</item>
+        <item>DUMB CHARADES (INFORMAL)</item>
+        <item>FACE PAINTING (ART)</item>
+        <item>FASHION SHOW (BIG EVENTS)</item>
+        <item>FIFA (GAMING)</item>
+        <item>FILMY FUNDA (INFORMAL)</item>
+        <item>GROUP DANCE EASTERN (DANCE)</item>
+        <item>GROUP DANCE WESTERN (DANCE)</item>
+        <item>HOGATHON (INFORMAL)</item>
+        <item>INSTRUMENTAL SOLO PERCUSSION (MUSIC)</item>
+        <item>INSTRUMENTAL SOLO NON-PERCUSSION (MUSIC)</item>
+        <item>JODI NO 1 (DANCE)</item>
+        <item>LAGORI (SPORTS)</item>
+        <item>LIGHT VOCALS SOLO (MUSIC)</item>
+        <item>MAD ADS (INFORMAL)</item>
+        <item>MEHANDI (ART)</item>
+        <item>MINI BASKETBALL (SPORTS)</item>
+        <item>MINI CRICKET (SPORTS)</item>
+        <item>MINI SOCCER (SPORTS)</item>
+        <item>MINI VOLLEYBALL (SPORTS)</item>
+        <item>NFS MOST WANTED (GAMING)</item>
+        <item>RANGOLI (ART)</item>
+        <item>ROAD RASH FOR GIRLS (GAMING)</item>
+        <item>SKETCHING (ART)</item>
+        <item>SLOW DRAG RACE (INFORMAL)</item>
+        <item>SOLO DANCE NON-CLASSICAL (DANCE)</item>
+        <item>SPOT CLICK (GAMING)</item>
+        <item>STREET DANCE (BIG EVENTS)</item>
+        <item>SUDOKU (MIND TALENTED)</item>
+        <item>TREASURE HUNT (MIND TALENTED)</item>
+        <item>TUG OF WAR (SPORTS)</item>
+        <item>QUIZ BENGALURU (MIND TALENTED)</item>
+        <item>QUIZ GENERAL (MIND TALENTED)</item>
+
+        <!-- <item>KTM STUNT SHOW (BIG EVENTS)</item> -->
+
+    </string-array>
+    <!-- From: file:/D:/AS/varva/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <!-- From: file:/D:/AS/varva/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="about">Here we bringing you to VARCHASVA’15, a College Fest of all new wonderful mixture of Events 
+        Which is set to Entertain you all to the Fullest.\n\nProvided a Spectrum of Events Where you can showcase 
+        your Talents and win EXCITING PRIZES!!\n\nWe are happy to inform and to welcome you all to this event.\n\nCome 
+        and Join Us with Facebook at:\n\t "https://www.facebook.com/varchasva14?fref=ts"
+        \n\nDownload our app in Play Store at:\n\t "https://play.google.com/store/apps/details?id=com.varchasva.varva" </string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="antaksharic">Name: Amulya C K and Abhishree S\n\n
+        Phone: 9620675976 and 9986260723	</string>
+    <string name="antaksharid">•	Its a musiccal game which has entertained us for years is here again to vivify you the best part, 
+	as we all know, is that your singing ability can be zilch.\n
+	•	So all Bathroom singers out there... come out and show your talent to the world.</string>
+    <string name="antaksharir">•	3 Members per team.\n\n
+•	Normal antakshari rules applied.\n\n</string>
+    <string name="antakshariv">\t\t\t\tKANNADA\n
+	    Time: 1.30pm - 3.00pm\n
+	    Place: HRD TR-3\n\n
+	    \t\t\t\tHINDI\n
+	    Time: 3.00pm - 4.30pm\n
+	    Place: HRD TR-3\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 60/-\n\n
+	    First Price: Rs. 1500/-\n\n
+	    Second Price: Rs. 750/-</string>
+    <string name="app_name">VARCHASVA</string>
+    <string name="bandsc">Name: Md Umar\n\n
+        Phone: 7259247613	</string>
+    <string name="bandsd">•	It is a contest in which 2 or more bands compete for the title of "best band".\n
+	•	The winner is determined by the general response of the audience or the band who brings the most people 
+	support to  them.</string>
+    <string name="bandsr">•	Duration: 15+5 minutes.\n\n
+•	Maximum 6 members per team.</string>
+    <string name="bandsv">Time: 1.30pm - 3.00pm\n\n
+	    Place: AUDITORIUM\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 500/-\n\n
+	    First Price: Rs. 8000/-\n\n
+	    Second Price: Rs. 4000/-</string>
+    <string name="basketc">Name: Sumeer Kumar Jha\n\n
+        Phone: 7829923149	</string>
+    <string name="basketd">•	A basketball team is like the five fingers on your hand. If you can get them all together, you have a fist.\n\n
+        •	Basketball could be another. Things where you need incredible hand-eye coordination.\n\n
+        •	Come and show your best and Win prizes!!!</string>
+    <string name="basketr">•	Maximum 3+1 per team.\n\n
+•	3 on 3 match.\n\n
+•	Duration: 12 minutes.</string>
+    <string name="basketv">Time: 1.00pm\n\n
+	    Place: BASKET BALL COURT\n\n
+	    Date: 17th April\n\n
+	    Registration Fees: Rs. 200/-\n\n
+	    First Price: Rs. 2500/-\n\n
+	    Second Price: Rs. 1500/-</string>
+    <string name="callc">Name: Chiranthan H R\n\n
+        Phone: 8105925626	</string>
+    <string name="calld">•	Call of Duty 4: Modern Warfare is a 2007 first-person shooter video game, developed by Infinity Ward and published by Activision for Microsoft Windows, Mac OS X, PlayStation 3, Xbox 360 and Wii.\n\n
+        •	The story takes place in the year 2011, where a radical leader has executed the president of an unnamed country in the Middle East, and an ultranationalist movement starts a civil war in Russia.\n\n
+        •	The multiplayer portion of the game features various game modes, and contains a leveling system that allows the player to unlock additional weapons, weapon attachments, and camouflage schemes as they advance.</string>
+    <string name="callr">•	Team size:4 members.</string>
+    <string name="callv">\t\t\t\tDAY 1\n
+	    Time: 11.30am\n
+	    Place: HRD LAB-3\n
+	    Date: 17th April\n\n
+	    \t\t\t\tDAY2\n
+	    Time: 10.00am\n
+	    Place: HRD LAB-3\n
+	    Date: 18th April\n\n
+	    Registration Fees: 200/-\n\n
+	    First Price: Rs. 3000/-\n\n
+	    Second Price: Rs. 1500/-</string>
+    <string name="collagec">Name: Anupama N\n\n
+        Phone: 9981349802	</string>
+    <string name="collaged">\t\t\t\tParticipants will create a collage using only newspaper and glue.</string>
+    <string name="collager">•	Scissors and sketch pens not allowed.\n\n
+•	Maximum of 3 members per team.\n\n
+•	Duration: 90 minutes.\n\n
+•	Charts will be provided.</string>
+    <string name="collagev">Time: 1.30pm - 3.00pm\n\n
+	    Place: AUDI ROOM 2\n\n
+	    Date: 17th April\n\n
+	    Registration Fees: Rs. 100/-\n\n
+	    First Price: Rs. 1500/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="counterc">Name: Viren Sreeganesh S\n\n
+        Phone: 9886108977	</string>
+    <string name="counterd">•	Counter Strike is one of the most popular multipalyer first person shooter games where your role affects 
+	your team’s success and your team’s success affects your role.\n
+	•	The teams with the maximun victories will be qualified.</string>
+    <string name="counterr">•	4 players per team.\n\n
+	•	Team with more number of wins will move further.\n\n
+	•	Play death match.</string>
+    <string name="counterv">\t\t\t\tDAY 1\n
+	    Time: 11.30am\n
+	    Place: HRD LAB-1\n
+	    Date: 17th April\n\n
+	    \t\t\t\tDAY2\n
+	    Time: 10.00am\n
+	    Place: HRD LAB-1\n
+	    Date: 18th April\n\n
+	    Registration Fees: 200/-\n\n
+	    First Price: Rs. 4000/-\n\n
+	    Second Price: Rs. 2000/-</string>
+    <string name="creativec">Name: Harish M V\n\n
+        Phone: 8088611667	</string>
+    <string name="creatived">•	Creative writing is any writing that goes outside the bounds of normal professional,
+         journalistic, academic, or technical forms of literature, typically identified by an emphasis on narrative craft, 
+         character development, and the use of literary tropes or with various traditions of poetry and poetics.\n\n
+         •	“ 	Witty and LaBrant…[say creative writing] is a composition of any type of writing at any time primarily in the service of such needs as:\n\n
+         \t\t\tThe need for keeping records of significant experience,\n
+    \t\t\tThe need for sharing experience with an interested group, and\n
+    \t\t\tThe need for free individual expression which contributes to mental and physical health.”
+</string>
+    <string name="creativer">•	Solo Participant.\n\n
+•	Topic will be given on spot.\n\n
+•	Duration: 90minutes.</string>
+    <string name="creativev">Time: 1.00pm - 4.00pm\n\n
+	    Place: AUDI ROOM 3\n\n
+	    Date: 17th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 1000/-\n\n
+	    Second Price: Rs. 500/-</string>
+    <string name="cricketc">Name: Rishab\n\n
+        Phone: 7411980911	</string>
+    <string name="cricketd">•	The pitch is circular, and their is a wicket.\n
+	•	The bowler and batsmen are either end of the wicket.\n
+	•	There are 3 stem at either end of the wicket.\n
+	•	There are 2 teams of 6 players.</string>
+    <string name="cricketr">•	Maximum of 6+1 players.\n\n
+•	20 ball game.\n\n
+•	Re-entry allowed in prelims.</string>
+    <string name="cricketv">\t\t\t\tDAY 1\n
+	    Time: 11.00am\n
+	    Place: SPORTS GROUND\n
+	    Date: 17th April\n\n
+	    \t\t\t\tDAY2\n
+	    Time: 10.00am\n
+	    Place: SPORTS GROUND\n
+	    Date: 18th April\n\n
+	    Registration Fees: 300/-\n\n
+	    First Price: Rs. 5000/-\n\n
+	    Second Price: Rs. 2000/-</string>
+    <string name="dance">1) Each team member should posses a valid college ID proof.\n\n
+	    2) Each team will be given a time slot to perform, on exceeding which the music will be stopped.\n\n
+	    3) Dangerous props like inflammable are not allowed and no indecent behavior will be tolerated during the performance.\n\n
+	    4) The team should submit their track in a CD/Flash Drive atleast an hour prior to event to respective event co-ordinators.\n\n
+	    5) The judge’s Decision shall be the final and there shall be no further debate.</string>
+    <string name="djc">Name: Likith Gowda H S\n\n
+        Phone: 9663578553		
+</string>
+    <string name="djd">•	A disc jockey (abbreviated as DJ or deejay) is a person who mixes recorded 
+       music for an audience; in a club event or rave, this is an audience of dancers.\n\n
+       •	Today, the term includes all forms of music playback, no matter which medium is used.\n\n
+       •	Want a relief from all your Troubles... then dont miss the Dj night.\n\n
+       •	Dance like no one sees you, Shout like no one hears you, Jump Like no one Reach you. </string>
+    <string name="djv">Time: 4.30pm - 7.00pm\n\n
+	    Place: BASKET BALL COURT\n\n
+	    Date: 18th April
+</string>
+    <string name="dotac">Name: Chandan P\n\n
+        Phone: 8147772257	</string>
+    <string name="dotad">•	Dota 2 is a competitive game of action and strategy, played both professionally 
+	    and casually by millions of passionate fans worldwide.\n
+	    •	Players pick from pool of over a hundred heroes, forming 2 teams of 5 players.\n
+	    •	Radiant heroes then battle their dire counterparts to control a gorgeous fantasy landscape, waging 
+	    campaigns of cunning, stealth, and outright warfare irresistibly colorful on the surface.\n
+	    •	Dota 2 is a game of infinte depth and complexity.\n
+	    •	Every hero has an array of skills and abilities that combined with the skills of their allies in unexpected ways, 
+	    to ensure that no game is ever remotely alike.</string>
+    <string name="dotar">>•	Solo participants.\n\n
+•	Re-entries allowed in prelims.</string>
+    <string name="dotav">\t\t\t\tDAY 1\n
+	    Time: 11.30am\n
+	    Place: HRD LAB-4\n
+	    Date: 17th April\n\n
+	    \t\t\t\tDAY2\n
+	    Time: 10.00am\n
+	    Place: HRD LAB-4\n
+	    Date: 18th April\n\n
+	    Registration Fees: 250/-\n\n
+	    First Price: Rs. 4000/-\n\n
+	    Second Price: Rs. 2000/-</string>
+    <string name="dragc">Name: Saurab Minj\n\n
+        Phone: 8884399279	</string>
+    <string name="dragd">•	We always have race on Buddies who rides fast.\n\n
+        •	Let there be a change, therefore lets give a chance who can ride slowly too.\n\n
+        •	Step Up, Gear Down and Reach Last to win Prize.</string>
+    <string name="dragr">•	Geared two wheelers.\n\n
+•	License and Helmets a must for participation.\n\n
+•	Participants should make their own arrangements for vehicles.\n\n
+•	College will not be held responsible for any kind of vehicle or physical damage.\n\n
+•	Re entry is allowed for 1st round.</string>
+    <string name="dragv">Time: 1.00pm\n\n
+	    Place: BASKET BALL COURT\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 1500/-\n\n
+	    Second Price: Rs. 750/- </string>
+    <string name="dumbc">Name: Ankith Ranjan\n\n
+        Phone: 8123667054	</string>
+    <string name="dumbd">\t\t\t\tDumb Charades is all about one person striving to help other participants or teammates guess the topic 
+	given to him or her.</string>
+    <string name="dumbr">•	Team size:2-3 members.\n\n
+•	Standard DC rules apply and 20 questions rules applicable.</string>
+    <string name="dumbv">Time: 3.00pm - 4.30pm\n\n
+	    Place: HRD TR-2\n\n
+	    Date: 17th April\n\n
+	    Registration Fees: Rs. 60/-\n\n
+	    First Price: Rs. 1500/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="easternc">Name: Karthik. M\n\n
+        Phone: 8553182773</string>
+    <string name="easternd">•	Eastern Dance is orginally formed by borrowing classical, modern and jazz styles.\n
+  	•	It also incorporates elements from many styles of dance.</string>
+    <string name="easternr">•	Team size: 6 - 10 members.\n\n
+•	Duration: 6+2mins.\n\n
+•	Props are allowed.\n\n
+•	Genre: Indian classical/Folk/Contemporary.\n\n
+•	Music 	CD’s to be submitted 1hr prior to the event.\n\n
+•	Teams will be judged on the basis of \n
+1) Choreography \n
+2) Costumes\n
+3) Overall presentation.\n\n
+•	Props will not be considered for judgment.</string>
+    <string name="easternv">Time: 9.30am - 11.00am\n\n
+	    Place: AUDITORIUM\n\n
+	    Date: 17th April\n\n
+	    Registration Fees: Rs. 400/-\n\n
+	    First Price: Rs. 10000/-\n\n
+	    Second Price: Rs. 5000/-</string>
+    <string name="fashionc">Name: Arjun N J\n\n
+        Phone: 9481593410 	</string>
+    <string name="fashiond">•	Come and showcase your debonair styles and display the colours that encompass every aspect of our vast 
+	and ancient culture\n
+	•	Fashion is about dream and make other people dream.</string>
+    <string name="fashionr">•	Team size:8-12 members.\n\n
+•	Duration: 8+2 minutes.\n\n
+•   First round would be ethnic and second round is of team’s choice. Choreography and Music will be the main criteria for judging.\n\n
+•	Music CD’s to be submitted 1 hour prior to the event.\n\n
+•	Obscenity on Stage will lead to immediate disqualification. Creativity, Accessories, Clothing and Styling will be judged.</string>
+    <string name="fashionv">Time: 4.00pm - 7.00pm\n\n
+	    Place: AUDITORIUM\n\n
+	    Date: 17th April\n\n
+	    Registration Fees: Rs. 1500/-\n\n
+	    First Price: Rs. 30000/-\n\n
+	    Second Price: Rs. 10000/-</string>
+    <string name="fifac">Name: Siddarth Kumar\n\n
+        Phone: 7795997436	</string>
+    <string name="fifad">\t\t\t\tThe most widely played sports simulation game over the world. Console gaming which requires 
+	strategy, skill, courage and composure.</string>
+    <string name="fifar">•	Solo participants.\n\n
+•	Re-entries allowed in prelims.</string>
+    <string name="fifav">Time: 10.00am\n\n
+	    Place: HRD  LAB 1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2500/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="filmyc">Name: Md Umar\n\n
+        Phone: 7259247613	</string>
+    <string name="filmyd">\t\t\t\tBring out the actor in you and let the spntaneity embrace the crowd and showcase your talent.</string>
+    <string name="filmyr">•	Duration: 10+2minutes.\n\n
+•	The movie should be recorded in DVD and submitted 1hour prior to the event.</string>
+    <string name="filmyv">Time: 1.00pm - 3.00pm\n\n
+	    Place: HRD TR-3\n\n
+	    Date: 17th April\n\n
+	    Registration Fees: Rs. 150/-\n\n
+	    First Price: Rs. 4000/-\n\n
+	    Second Price: Rs. 2000/-</string>
+    <string name="generalc">Name: Vanuja T and	Tarooqh\n\n
+        Phone: 9535334678  9742577807	</string>
+    <string name="generald">\t\t\t\tAre you crazy about everything?? From past to future, google to facebook, kanyakumari to kashmir, 
+	This quiz encompasses everything about General.</string>
+    <string name="generalr">•	3 members per team.\n\n
+•	Rounds will be general and about India.\n\n
+•	Written prelims will be held.</string>
+    <string name="generalv">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="history">This varchasva was started on 2012\n\n This varchasva was started on 2012\n\nThis varchasva was started on 2012\n\nThis varchasva was started on 2012\n\nThis varchasva was started on 2012\n\nThis varchasva was started on 2012\n\n      here we provide more enjoying stuff               Sathish Paint is a coloring tool which helps you to make anything of your imagination.\nPick the color you want and start painting.\n\nPress menu for more options!\n\nHappy painting :)\n\nThis software is released under the Diffulty of Sathish having forgettting his Studies Fully .\n I Dedicate tis app to All My family n Friends of SJBIT, BANGALORE and ST.MARYS SCHOOL, CHENNAI.</string>
+    <string name="hogathonc">Name: Sushmitha S\n\n
+        Phone: 9886734203	</string>
+    <string name="hogathond">•	All you have to do here is hog, hog and hog.\n
+	•	Foodies are invited to play this game.\n
+	•	There will be different set of rounds having different food items which the participants have to eat fast, very fast.\n
+	•	Elimination of participants in each round depends on the number of participants taking part. </string>
+    <string name="hogathonr">•	Each round will be for one minute.</string>
+    <string name="hogathonv">Time: 3.00pm\n\n
+	    Place: BASKET BALL COURT\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 1000/-\n\n
+	    Second Price: Rs. 500/-</string>
+    <string name="indiac">Name: Vanuja T and Tarooqh\n\n
+        Phone: 9535334678  9742577807	</string>
+    <string name="indiad">\t\t\t\tAre you crazy about everything?? From past to future, google to facebook, kanyakumari to kashmir, 
+	This quiz encompasses everything about Bengaluru!!!</string>
+    <string name="indiar">•	3 members per team.\n\n
+•	Rounds will be general and about India.\n\n
+•	Written prelims will be held.</string>
+    <string name="indiav">Time: 11.30am - 1.30pm\n\n
+	    Place: HRD TR-2\n\n
+	    Date: 17th April\n\n
+	    Registration Fees: Rs. 100/-\n\n
+	    First Price: Rs. 2000/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="jodic">Name: Manjushree Rao\n\n
+        Phone: 9886187479	</string>
+    <string name="jodid">\t\t\t\tPartner dances are dances whose basic choreography involves co-ordinated dancing of two partners.</string>
+    <string name="jodir">•	Duration: 5+1minutes.\n\n
+•	Music CD’s to be submitted 1hour prior to the event.</string>
+    <string name="jodiv">Time: 11.00am - 12.30pm\n\n
+	    Place: AUDITORIUM\n\n
+	    Date: 17th April\n\n
+	    Registration Fees: Rs. 300/-\n\n
+	    First Price: Rs. 6000/-\n\n
+	    Second Price: Rs. 3000/-</string>
+    <string name="lagoric">Name: Hemanth Kumar R\n\n
+        Phone: 9743268585	</string>
+    <string name="lagorid">•	Lagori is a high energy outdoor team game that is widely played in most parts of the country by both rural 
+	and urban children.\n
+	•	Other commonly known name for this game are Sitoliya, Saat Patha, Lingocha, Ezhu Kallu, Dabba Kal, etc.</string>
+    <string name="lagorir">•	Maximum 5+1 players.\n\n
+•	Each player 3 chances.</string>
+    <string name="lagoriv">\t\t\t\tDAY 1\n
+	    Time: 12.00pm\n
+	    Place: SPORTS GROUND\n
+	    Date: 17th April\n\n
+	    \t\t\t\tDAY2\n
+	    Time: 10.00am\n
+	    Place: SPORTS GROUND\n
+	    Date: 18th April\n\n
+	    Registration Fees: 100/-\n\n
+	    First Price: Rs. 2500/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="madc">Name: Aditya\n\n
+        Phone: 7411210156</string>
+    <string name="madd">\t\t\t\tSell your unique product to the audience in the goofiest way possible!  
+	The team has to promote a product of their own in a quirky and hilarious way. </string>
+    <string name="madr">•	Team size: 7+1 members.\n\n
+•	Duration: 6+2mins.\n\n
+•	Props not allowed.\n\n
+•	Any form of obscenity will lead to immediate disqualification.\n\n
+•	Standard Mad Ad rules apply.</string>
+    <string name="madv">Time: 1.00pm - 2.30pm\n\n
+	    Place: AUDITORIUM\n\n
+	    Date: 17th April\n\n
+	    Registration Fees: Rs. 300/-\n\n
+	    First Price: Rs. 7000/-\n\n
+	    Second Price: Rs. 3000/-</string>
+    <string name="mehendic">Name: Amulya CK\n\n
+        Phone: </string>
+    <string name="mehendid">\t\t\t\tDraw out beautiful mehendi designs on your partner’s hands.</string>
+    <string name="mehendir">•	Duration: 60 minutes.\n\n
+•	Materials will not be provided.\n\n
+•	Use of Design references not allowed.\n\n
+•	Use of Mehandi cones only.\n\n
+•	Single hand.</string>
+    <string name="mehendiv">Time: 1.30pm - 2.30pm\n\n
+	    Place: AUDI ROOM 1\n\n
+	    Date: 17th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 1000/-\n\n
+	    Second Price: Rs. 500/-</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="nfsc">Name: Varun Kumar H N\n\n
+        Phone: 9035467622	</string>
+    <string name="nfsd">•	Need for Speed: Most Wanted (commonly abbreviated to as NFS: MW or just Most Wanted) is a racing video game developed by EA Black Box and published by Electronic Arts.\n\n
+        •	It is the ninth installment in the Need for Speed series.\n\n
+        •	The game features street racing-oriented game play, with certain customization options from the Need for Speed: Underground series.\n\n
+        •	The game is succeeded by Need for Speed: Carbon, which serves as a sequel to Most Wanted.</string>
+    <string name="nfsr">•	Solo participants only.\n\n
+•	Re-entry allowed in prelims.</string>
+    <string name="nfsv">\t\t\t\tDAY 1\n
+	    Time: 11.30am\n
+	    Place: HRD LAB-2\n
+	    Date: 17th April\n\n
+	    \t\t\t\tDAY2\n
+	    Time: 10.00am\n
+	    Place: HRD LAB-2\n
+	    Date: 18th April\n\n
+	    Registration Fees: 50/-\n\n
+	    First Price: Rs. 1500/-\n\n
+	    Second Price: Rs. 750/-</string>
+    <string name="nonpercussionc">Name: Chiranthan HR\n\n
+        Phone: 8105925626	</string>
+    <string name="nonpercussiond">\t\t\t\tThis event is to get the best instrumentalists to perform and exhibit their talent. 
+	Let your instrument do the talking.</string>
+    <string name="nonpercussionr">•	Duration: 6+1 minutes.\n\n
+•	One accompanist allowed.\n\n
+•	Key board allowed.</string>
+    <string name="nonpercussionv">Time: 1.30pm - 3.30pm\n\n
+	    Place: HRD TR-2\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 1500/-\n\n
+	    Second Price: Rs. 750/-</string>
+    <string name="paintingc">Name: Aishwarya G\n\n
+        Phone: 9686403731	</string>
+    <string name="paintingd">\t\t\t\tOne participant should paint the other using the colours and brushes provided.</string>
+    <string name="paintingr">•	Duration: 90minutes.\n\n
+•	Theme will be announced on spot.\n\n
+•	Paints should be bought by Participants.</string>
+    <string name="paintingv">Time: 4.30pm - 6.00pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 17th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 1000/-\n\n
+	    Second Price: Rs. 500/-</string>
+    <string name="percussionc">Name: Chiranthan HR\n\n
+        Phone: 8105925626	</string>
+    <string name="percussiond">\t\t\t\tA percussion instrument is a musical instrument that is sounded by being struck, scraped or 
+	rubbed by hand.</string>
+    <string name="percussionr">•	Maximum: 6+1 minutes.\n\n
+•	Harmonium or Lehara allowed.</string>
+    <string name="percussionv">Time: 1.30pm - 3.30pm\n\n
+	    Place: HRD TR-2\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 1500/-\n\n
+	    Second Price: Rs. 750/-</string>
+    <string name="rangolic">Name: Amulya C K\n\n
+        Phone: 9620675976	</string>
+    <string name="rangolid">•	This is a classic Rangoli competition where you get to show off your creative skills with colours.\n
+	•	Bring out your best design to the world and walk away with an attractive prize as well.</string>
+    <string name="rangolir">•	Team size:2 members.\n\n
+•	Duration: 90minutes.\n\n
+•	Maximum of 8x8 space will be provided.\n\n
+•	Color powder, Salt and grains can be used.\n\n
+•	Use of chalk piece and flowers not allowed.\n\n
+•	Participants must bring their own materials.</string>
+    <string name="rangoliv">Time: 12.00pm - 1.30pm\n\n
+	    Place: AUDI ROOM 1\n\n
+	    Date: 17th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 1000/-\n\n
+	    Second Price: Rs. 500/-</string>
+    <string name="register">Every event requires registration for participation.\n\n
+	    Any one of the team members can register for group events.\n\n
+	    Please take screenshot or print out the generated information after enrolling of tickets\n\n
+	    Collect the tickets before participating in the event by showing the generated information\n\n
+	    Any individual without the Varchasva Ticket will not be allowed to participate in the event.</string>
+    <string name="roadc">Name: Varun Kumar H N\n\n
+        Phone: 9035467622 	</string>
+    <string name="roadd">•	RoadRash will always remember of our childhood days... So its time for Refreshment of the oldness to come back...\n\n
+        •	But it is restricted only for girls... So by hearing the music lets drive the favorite bike to the fullest speed.</string>
+    <string name="roadr">•	Solo participants.\n\n
+•	Re-entries allowed in prelims.</string>
+    <string name="roadv">Time: 10.00am\n\n
+	    Place: HRD LAB 2\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 1500/-\n\n
+	    Second Price: Rs. 750/-</string>
+    <string name="rules">1) Every student should carry a valid college ID card or a current year bus pass.\n\n
+        3) Host College will not be participating for main stage events (Performance Only).\n\n
+        4) Minimun 6 teams for all events, for all 6 teams only 1 prize.\n\n
+        5) For more than 6 teams, 2 prizes will be announced.\n\n
+        6) For less than 6 teams, event will be cancelled and participation fee will be refunded.\n\n
+        7) In case of any discretion regarding the judgement, the decision of judges and management is final.\n\n
+        8) Corresponding Teams of the events will be given full authority to ensure unwanted situations do not prevail\n\n
+        9) All Students are requested to co-operate and follow the above mentioned rules for a hassle free fest</string>
+    <string name="sketchingc">Name: Abhishree S\n\n
+        Phone: 9986260723	</string>
+    <string name="sketchingd">•	This is the event for all those who are eager to sketch on a sheet.\n
+	•	Bring out the creativity in you and make a real challenge to your competitors.</string>
+    <string name="sketchingr">•	Duration: 90minutes.\n\n
+•	Solo Participants only.\n\n
+•	Sheets will be provided.\n\n
+•	Topic will be Given On spot.\n\n
+•	Participants must bring their own materials</string>
+    <string name="sketchingv">Time: 2.30Pm - 4.00pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 17th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 1000/-\n\n
+	    Second Price: Rs. 500/-</string>
+    <string name="soccerc">Name: Rohith Vibhu\n\n
+        Phone: 9686223999	</string>
+    <string name="soccerd">•	The perfect chance to showcase your soccer skills.\n
+	•	Standard mini - soccer rules, knockout format.</string>
+    <string name="soccerr">•	Team size: 5+2 members.\n\n
+•	Duration: 15 minutes.</string>
+    <string name="soccerv">\t\t\t\tDAY 1\n
+	    Time: 11.00am\n
+	    Place: SPORTS GROUND\n
+	    Date: 17th April\n\n
+	    \t\t\t\tDAY2\n
+	    Time: 10.00am\n
+	    Place: SPORTS GROUND\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 300/-\n\n
+	    First Price: Rs. 4000/-\n\n
+	    Second Price: Rs. 2000/-</string>
+    <string name="soloadapc">Name: Purnima C S\n\n
+        Phone: 8884113186	</string>
+    <string name="soloadapd">\t\t\t\tSolo Dance is danced individually</string>
+    <string name="soloadapr">•	Blankness for more than 30 seconds not allowed.\n\n
+	    •	Style of dance should match the song.\n\n
+	    •	Minimum 3 props are to be used.\n\n
+	    •	Duration: 3+1 minutes.\n\n
+	    •	Genre: western, eastern.
+	    •	Music to be given onspot.</string>
+    <string name="soloadapv">Time: 12.00pm - 1.00pm\n\n
+	    Place: AUDITORIUM\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 200/-\n\n
+	    First Price: Rs. 4000/-\n\n
+	    Second Price: Rs. 2000/-</string>
+    <string name="soloc">Name: Sushmitha N\n\n
+        Phone: 9535334678	</string>
+    <string name="solod">\t\t\t\tSolo Dance is danced individually</string>
+    <string name="solor">•	Free style: folk dance not allowed\n\n
+•	Duration: 4+1 minutes.\n\n
+•	Music CD’s to be submitted 1 hour prior to the event.</string>
+    <string name="solov">Time: 8.30am - 10.00am\n\n
+	    Place: AUDITORIUM\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 200/-\n\n
+	    First Price: Rs. 4000/-\n\n
+	    Second Price: Rs. 2000/-</string>
+    <string name="spotc">Name: Spoorthi B\n\n
+        Phone: 7406224897	</string>
+    <string name="spotd">•	Its quite a interesting event for today’s scenario cauz Selfies and DSLR has grown a lot today.\n\n
+        •	A thrill to get more attractive clicks will appear to your mind.\n\n
+        •	So, Come and show your creativity by spot clicking.</string>
+    <string name="spotr">•	Solo participant.\n\n
+•	Theme will be provided on spot. \n\n
+•	Duration: 60 minutes.\n\n
+•	Mobile phone cameras not allowed.\n\n
+•	One snapshot should be submitted to the judges.\n\n
+•	Photo shoot within the campus. </string>
+    <string name="spotv">Time: 12.00pm\n\n
+	    Place: BASKET BALL COURT\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 1000/-\n\n
+	    Second Price: Rs. 500/-</string>
+    <string name="streetc">Name: Ashish Kumar D R\n\n
+        Phone: 9480331970	</string>
+    <string name="streetd">•	Street dance, formally known as vernacular dance, refers to dance styles—regardless of country of origin—that evolved outside of dance studios in any available open space such as streets, dance parties, block parties, parks, school yards, raves, and nightclubs.\n\n
+        •	They are often improvisational and social in nature, encouraging interaction and contact with spectators and other dancers.\n\n
+        These dances are a part of the vernacular culture of the geographical area that they come from.</string>
+    <string name="streetr">•	Two rounds.\n
+           1. Performance round (6 minutes).\n
+           2. Battle field\n\n
+•	6-12 members in a team.\n\n
+•	Music CD/DVD s to be handed 1 Hour prior to the event.\n\n
+•	Use of recorded music is allowed.</string>
+    <string name="streetv">Time: 3.00pm - 4.30pm\n\n
+	    Place: AUDITORIUM\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs.500/-\n\n
+	    First Price: Rs. 10000/-\n\n
+	    Second Price: Rs. 4000/-</string>
+    <string name="stuntc">Name: Ashish Kumar D R\n\n
+        Phone: 9480331970		
+</string>
+    <string name="stuntd">Stunt Show is more than just riding demonstrations. Here you can find amazing stunts, 
+	    and fast-paced music to ensure a fun fast-paced unforgettable and memorable addition to the event!\n\n
+	    •	A thought of learning stunts, a thought of forming a team,
+	     a thought of performing shows, a thought of being one of the best team in India. 
+	     We, Team Balance Point, from Bangalore(Karnataka-India) launched the team on the 23rd of October 2011\n\t\t\t\t\t- TEAM BALANCE POINT(TBP)\n\n
+</string>
+    <string name="stuntv">Time: 2.30pm - 4.00pm\n\n
+	    Place: BASKET BALL COURT\n\n
+	    Date: 17th April
+</string>
+    <string name="sudokuc">Name: Nitish Kumar\n\n
+        Phone: 9008369814	</string>
+    <string name="sudokud">\t\t\t\tTest your sudoku savvy in our Live Sudoku Competition.</string>
+    <string name="sudokur">•	Solo participants only\n\n
+•	Duration :30 minutes</string>
+    <string name="sudokuv">Time: 4.00pm - 4.30pm\n\n
+	    Place: HRD TR-1\n\n
+	    Date: 17th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 1000/-\n\n
+	    Second Price: Rs. 500/-</string>
+    <string name="thanks">*  Mallikarjuna Swamy - Asst.Prof/CSE\n\n
+        *  DuraiSwamy(Teacher Co-ordinator of Varchasva)\n\n
+        *  Ajay Prakash B.V - Asst.Prof/ISE\n\n
+        *  Chaithra M - Asst.Prof/CSE\n\n
+        *  K.R.Darshan - Asst.Prof/CSE\n\n
+        *  Shilpa B.L - Asst.Prof/CSE\n\n
+        *  Vinutha Patil - Asst.Prof\n\n
+        *  Pavithra - Asst.Prof\n\n
+        *  Ananda Kumar - Former HOD/CSE\n\n
+        *  Pradeep R - Asst.Prof/MATHS\n\n
+        *  Likith Gowda(Student Co-ordinator of Varchasva)\n\n
+        *  All Co-ordinators of VARCHASVA\n\n\n\n
+        \t\t\t\t\t\t\t\t\t\t\t\t\t****\nTHANK YOU TO EACH AND EVERYONE WHO SUPPORTED AND ENCOURAGED US TO DEVELOP THIS ANDROID APP\n\t\t\t\t\t\t\t\t\t\t\t\t\t****
+</string>
+    <string name="title_activity_sponsor">SPONSORS</string>
+    <string name="title_activity_tutorial">Tutorial</string>
+    <string name="title_activity_whatsnew">Whatsnew</string>
+    <string name="title_section1">HOME</string>
+    <string name="title_section10">Art</string>
+    <string name="title_section11">Mind Talented</string>
+    <string name="title_section12">Big Events</string>
+    <string name="title_section13">Informal</string>
+    <string name="title_section14">Sponsors</string>
+    <string name="title_section15">Location</string>
+    <string name="title_section16">Developers</string>
+    <string name="title_section17">About</string>
+    <string name="title_section2">News Feed</string>
+    <string name="title_section3">Register</string>
+    <string name="title_section4">Rules</string>
+    <string name="title_section5">Co-Ordinators</string>
+    <string name="title_section6">Dance</string>
+    <string name="title_section7">Music</string>
+    <string name="title_section8">Sports</string>
+    <string name="title_section9">Gaming</string>
+    <string name="treasurec">Name: Kiran Kumar\n\n
+        Phone: 9977239940	</string>
+    <string name="treasured">•	There comes a time in every rightly-constructed student’s life when he has a raging desire to go 
+	somewhere and dig for hidden treasure.\n
+	•	We give you the opportunity to find yourself your own treasure hidden in the vicinity of the venue.\n
+	•	Go hunt your treasure before anyone else does.</string>
+    <string name="treasurer">•	Re entry is allowed for 1st round.\n\n
+•	The organization is not responsible for any sort of Accident and Traffic Rules Violation.\n\n
+•	The event will be held within the range of 10km.</string>
+    <string name="treasurev">Time: 1.30pm\n\n
+	    Place: BASKET BALL COURT\n\n
+	    Date: 17th April\n\n
+	    Registration Fees: Rs. 100/-\n\n
+	    First Price: Rs. 3000/-\n\n
+	    Second Price: Rs. 1500/-</string>
+    <string name="tugc">Name: Hemanth Kumar R\n\n
+        Phone: 9743268585	</string>
+    <string name="tugd">•	Tug of war (also known as tug o’ war, tug war, rope war, rope pulling, or tugging war) is a sport that directly puts two or more teams against each other in a test of strength.\n\n
+        •	Teams pull on opposite ends of a rope, with the goal being to bring the rope a certain distance in one direction against the force of the opposing team’s pull.</string>
+    <string name="tugr">•	Maximum 6+1 per team.\n\n
+•	General rules of Tug Of War applicable.</string>
+    <string name="tugv">Time: 2.00pm\n\n
+	    Place: SPORTS GROUND\n\n
+	    Date: 17th April\n\n
+	    Registration Fees: Rs. 70/-\n\n
+	    First Price: Rs. 1000/-\n\n
+	    Second Price: Rs. 500/-</string>
+    <string name="tut">1) Use the top left menu to traverse through the application.\n\n
+        2) Use the top right button to exit.</string>
+    <string name="vocalsc">Name: Sushmitha N\n\n
+        Phone: 9535334678	</string>
+    <string name="vocalsd">\t\t\t\tA Music composition or passage or section on a musical composition wriiten for 
+	performance by one singer or instrumentalist, with or without acompaniment.</string>
+    <string name="vocalsr">•	Duration:3+1 minutes.\n\n
+•	Karaoke /accompanists allowed.</string>
+    <string name="vocalsv">Time: 3.30pm - 5.30pm\n\n
+	    Place: HRD TR-2\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 50/-\n\n
+	    First Price: Rs. 1500/-\n\n
+	    Second Price: Rs. 750/-</string>
+    <string name="volleyc">Name: Praveen Kumar S N\n\n
+        Phone: 9901861049	</string>
+    <string name="volleyd">•	Volleyball is a team sport in which two teams of 3 players are separated by a net.\n\n
+        •	Each team tries to score points by grounding a ball on the other team’s court under organized rules.\n\n
+        •	It has been a part of the official program of the Summer Olympic Games since 1964.</string>
+    <string name="volleyr">•	Team of 3.\n\n
+	•	2 Set matches for 21 points with court change after one set (or it can be after every 7 points).\n\n
+	•	In case of a tie a third set for 15 points is played.\n\n
+	•	Rotation of players is not required and no substitutions are allowed.\n\n
+	•	With the ball in his court a team has 3 chances to clear it by alternating the touch with any other player.</string>
+    <string name="volleyv">Time: 12.00pm\n\n
+	    Place: SPORTS GROUND\n\n
+	    Date: 17th April\n\n
+	    Registration Fees: Rs. 200/-\n\n
+	    First Price: Rs. 2500/-\n\n
+	    Second Price: Rs. 1000/-</string>
+    <string name="westernc">Name: Nagendra. S\n\n
+        Phone: 8095343693
+</string>
+    <string name="westernd">\t\t\t\tWestern Dance encompasses many dance forms or styles, which are typically danced to 
+	    country-western music, and which are stylistcally associated with western tradition.</string>
+    <string name="westernr">•	Team size: 6 - 10 members.\n\n
+	    •	Duration: 6+2minutes\n\n
+	    •   Music CD’s to be submitted 1hr prior to the event.
+	    •   Props are allowed</string>
+    <string name="westernv">Time: 10.00am - 12.00pm\n\n
+	    Place: AUDITORIUM\n\n
+	    Date: 18th April\n\n
+	    Registration Fees: Rs. 400/-\n\n
+	    First Price: Rs. 10000/-\n\n
+	    Second Price: Rs. 5000/-</string>
+    <string name="whatsnew">1)Co-ordinators List has Been Updated.\n\n
+        2) Developers Page has been updated.\n\n
+        3) Sponsors Page has been added.\n\n
+        4) Certain Bug Fixing has been done.
+</string>
+    <!-- From: file:/D:/AS/varva/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="transparent" parent="android:Theme.Translucent">
+        <item name="android:background">#88212121</item>
+    </style>
+</resources>

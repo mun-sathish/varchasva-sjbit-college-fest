@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/b6">
+    
+     
+    <ScrollView 
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+       android:layout_gravity="center_horizontal"
+        
+        android:layout_centerHorizontal="true" >
+    <TextView
+        android:id="@+id/developers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="VARCHASVA TICKET"
+        android:textColor="#E64A19"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30dp" />
+    </LinearLayout>
+    
+     
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+           
+           <TextView
+            android:id="@+id/sathish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="135dp"
+            android:text="Student Name:  "
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            >
+    </TextView>
+        
+       <TextView
+        android:id="@+id/textView1"
+        android:textColor="#F44336"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+         />
+ </LinearLayout>
+ 
+      
+       <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+           
+           <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="135dp"
+            android:text="College Name:  "
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            >
+    </TextView>
+        
+       <TextView
+        android:id="@+id/textView2"
+        android:textColor="#F44336"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+         />
+ </LinearLayout>
+
+    
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+           
+           <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="135dp"
+            android:text="Branch Name: "
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            >
+    </TextView>
+        
+       <TextView
+        android:id="@+id/textView3"
+        android:textColor="#F44336"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+         />
+ </LinearLayout>
+    
+
+
+
+
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+           
+           <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="135dp"
+            android:text="Event: "
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            >
+    </TextView>
+        
+       <TextView
+        android:id="@+id/textView4"
+        android:textColor="#F44336"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+         />
+ </LinearLayout>
+ 
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+           
+           <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="135dp"
+            android:text="Mobile No:  "
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            >
+    </TextView>
+        
+       <TextView
+        android:id="@+id/textView5"
+        android:textColor="#F44336"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+         />
+ </LinearLayout>
+ 
+  
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+           
+           <TextView
+           
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="135dp"
+            android:text="Email ID:  "
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            >
+    </TextView>
+        
+       <TextView
+        android:id="@+id/textView6"
+        android:textColor="#F44336"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+         />
+ </LinearLayout>
+
+   
+ 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+           
+           <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="135dp"
+            android:text="Date:  "
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            >
+    </TextView>
+        
+       <TextView
+        android:id="@+id/textView7"
+        android:textColor="#F44336"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+         />
+ </LinearLayout>
+ 
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+           
+           <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="135dp"
+            android:text="Price:  "
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            >
+    </TextView>
+        
+       <TextView
+        android:id="@+id/textView8"
+        android:textColor="#F44336"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        
+         />
+ </LinearLayout>
+ 
+     
+
+        
+        
+        
+        
+<LinearLayout 
+    android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+    android:padding="10dp">
+        <Button
+            android:id="@+id/button3"
+            android:textSize="30dp"
+            android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+            android:padding="10dp"
+            android:layout_width="246dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border3"
+            android:textColor="#FFEB3B"
+            android:text="DONE" 
+            
+            android:onClick="done"
+            />
+        </LinearLayout>
+      
+      
+      </LinearLayout>
+ </ScrollView>
+</LinearLayout><!-- From: file:/D:/AS/varva/app/src/main/res/layout/page.xml -->

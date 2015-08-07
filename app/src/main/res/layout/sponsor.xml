@@ -1,0 +1,211 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F44336"
+    >
+
+     <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+    
+    
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:background="#673AB7"
+        >
+		<LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                
+                android:layout_marginTop="30dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/event1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                   android:textColor="#FFEB3B"
+                   android:padding="20dp"
+                    android:text="MEDIA     PARTNERS"
+                    
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="40dp" />
+            </LinearLayout>
+            
+		
+		
+	
+                <ImageView
+          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+            android:src="@drawable/raj" />
+        <ImageView
+          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+            android:src="@drawable/ytv" />
+        <ImageView
+          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+            android:src="@drawable/deccan" />
+        <ImageView
+          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+               
+            android:src="@drawable/kannada" />
+        
+        
+    </LinearLayout>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     <LinearLayout 
+        android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:background="#FF9800"
+        >
+		<LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                
+                android:layout_marginTop="30dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/event2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                   android:textColor="#FFEB3B"
+                   android:padding="20dp"
+                    android:text="SPONSORS"
+                    
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="40dp" />
+            </LinearLayout>
+            
+		
+		
+	
+                <ImageView
+          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+            android:src="@drawable/aircel" />
+        <ImageView
+          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+            android:src="@drawable/canara" />
+        <ImageView
+          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+            android:src="@drawable/decathlon" />
+        <ImageView
+          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+               android:layout_marginTop="20dp"
+            android:src="@drawable/streetsmart" />
+        
+        <ImageView
+          
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+               android:layout_marginTop="20dp"
+               android:layout_marginBottom="20dp"
+            android:src="@drawable/pravara" />
+        
+    </LinearLayout>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </LinearLayout>
+    </ScrollView>
+    
+</LinearLayout>

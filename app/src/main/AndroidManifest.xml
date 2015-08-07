@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.varchasva.varva"
+    android:versionCode="7"
+    android:versionName="1.6" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".About"
+            android:label="HOME"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Register"
+            android:label="REGISTRATION"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Animate"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Notify"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Soloadap"
+            android:label="SOLO DANCE (ADAPTIVE)"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".First"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Callofduty"
+            android:label="CALL OF DUTY"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Bands"
+            android:label="BATTLE OF BANDS"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Inssolo1"
+            android:label="INSTRUMENTAL SOLO ()PERCUSSION)"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Inssolo2"
+            android:label="INSTRUMENTAL SOLO (NON-PERCUSSION)"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Vocal"
+            android:label="LIGHT VOCALS"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Music"
+            android:label="MUSIC"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Sketching"
+            android:label="SKETCHING"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Face"
+            android:label="FACE PAINTING"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Dumbcharades"
+            android:label="DUMB CHARADES"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Collage"
+            android:label="COLLAGE"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Filmyfunda"
+            android:label="FILMY FUNDA"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Antakshari"
+            android:label="ANTAKSHARI"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Slowdrag"
+            android:label="SLOW DRAG RACE"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".NewsFeed"
+            android:label="NewsFeed"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Fifa"
+            android:label="FIFA"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Spotclick"
+            android:label="SPOT CLICK"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Counterstrike"
+            android:label="COUNTER STRIKE"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Roadrash"
+            android:label="ROAD RASH (GIRLS)"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".History"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Coordinators"
+            android:label="CO-ORDINATORS"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Enroll"
+            android:label="ENROLL FORM"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Page"
+            android:label="TICKET"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Sports"
+            android:label="SPORTS"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Developers"
+            android:label="DEVELOPERS"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Dance"
+            android:label="DANCE"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Quiz"
+            android:label="MIND TALENTED"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Gaming"
+            android:label="GAMING"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Informal"
+            android:label="INFORMAL"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".BigEvents"
+            android:label="BIG EVENTS"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Art"
+            android:label="ART"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Rules"
+            android:label="RULES"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Fashion"
+            android:label="FASHION SHOW"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Mehandi"
+            android:label="MEHENDI"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Rangoli"
+            android:label="RANGOLI"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Location"
+            android:label="LOCATION"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Bike"
+            android:label="STUNT SHOW"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Street"
+            android:label="STREET DANCE"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Djnight"
+            android:label="DJ NIGHT"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Western"
+            android:label="GROUP DANCE WESTERN"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Eastern"
+            android:label="GROUP DANCE EASTERN"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Jodino"
+            android:label="JODI NO 1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Solodance"
+            android:label="SOLO DANCE"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Roadrace"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Nfs"
+            android:label="NFS MOST WANTED"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Dota"
+            android:label="DOTA 2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Cod"
+            android:label="COD"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Madads"
+            android:label="MAD AD"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Hogothon"
+            android:label="HOGATHON"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".World"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Normal"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Minicricket"
+            android:label="MINI CRICKET"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Minifootball"
+            android:label="MINI SOCCER"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Minibasketball"
+            android:label="MINI BASKETBALL"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Minivolleyball"
+            android:label="MINI VOLLEYBALL"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".India"
+            android:label="QUIZ BENGALURU"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".General"
+            android:label="QUIZ GENERAL"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Sudoku"
+            android:label="SUDOKU"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Writing"
+            android:label="CREATIVE WRITING"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Treasure"
+            android:label="TREASURE HUNT"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Lagori"
+            android:label="LAGORI"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Tugofwar"
+            android:label="TUG OF WAR"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Tutorial"
+            android:label=""
+            android:theme="@style/transparent" >
+        </activity>
+        <activity
+            android:name=".Whatsnew"
+            android:label=""
+            android:theme="@style/transparent" >
+        </activity>
+        <activity
+            android:name=".Sponsor"
+            android:label="@string/title_activity_sponsor" >
+        </activity>
+    </application>
+
+</manifest>

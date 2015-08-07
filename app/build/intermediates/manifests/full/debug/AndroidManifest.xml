@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.varchasva.varva"
+    android:versionCode="7"
+    android:versionName="1.6" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.varchasva.varva.About"
+            android:label="HOME"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Register"
+            android:label="REGISTRATION"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Animate"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Notify"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Soloadap"
+            android:label="SOLO DANCE (ADAPTIVE)"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.First"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Callofduty"
+            android:label="CALL OF DUTY"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Bands"
+            android:label="BATTLE OF BANDS"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Inssolo1"
+            android:label="INSTRUMENTAL SOLO ()PERCUSSION)"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Inssolo2"
+            android:label="INSTRUMENTAL SOLO (NON-PERCUSSION)"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Vocal"
+            android:label="LIGHT VOCALS"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Music"
+            android:label="MUSIC"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Sketching"
+            android:label="SKETCHING"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Face"
+            android:label="FACE PAINTING"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Dumbcharades"
+            android:label="DUMB CHARADES"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Collage"
+            android:label="COLLAGE"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Filmyfunda"
+            android:label="FILMY FUNDA"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Antakshari"
+            android:label="ANTAKSHARI"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Slowdrag"
+            android:label="SLOW DRAG RACE"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.NewsFeed"
+            android:label="NewsFeed"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Fifa"
+            android:label="FIFA"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Spotclick"
+            android:label="SPOT CLICK"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Counterstrike"
+            android:label="COUNTER STRIKE"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Roadrash"
+            android:label="ROAD RASH (GIRLS)"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.History"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Coordinators"
+            android:label="CO-ORDINATORS"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Enroll"
+            android:label="ENROLL FORM"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Page"
+            android:label="TICKET"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Sports"
+            android:label="SPORTS"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Developers"
+            android:label="DEVELOPERS"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Dance"
+            android:label="DANCE"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Quiz"
+            android:label="MIND TALENTED"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Gaming"
+            android:label="GAMING"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Informal"
+            android:label="INFORMAL"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.BigEvents"
+            android:label="BIG EVENTS"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Art"
+            android:label="ART"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Rules"
+            android:label="RULES"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Fashion"
+            android:label="FASHION SHOW"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Mehandi"
+            android:label="MEHENDI"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Rangoli"
+            android:label="RANGOLI"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Location"
+            android:label="LOCATION"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Bike"
+            android:label="STUNT SHOW"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Street"
+            android:label="STREET DANCE"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Djnight"
+            android:label="DJ NIGHT"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Western"
+            android:label="GROUP DANCE WESTERN"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Eastern"
+            android:label="GROUP DANCE EASTERN"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Jodino"
+            android:label="JODI NO 1"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Solodance"
+            android:label="SOLO DANCE"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Roadrace"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Nfs"
+            android:label="NFS MOST WANTED"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Dota"
+            android:label="DOTA 2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Cod"
+            android:label="COD"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Madads"
+            android:label="MAD AD"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Hogothon"
+            android:label="HOGATHON"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.World"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Normal"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Minicricket"
+            android:label="MINI CRICKET"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Minifootball"
+            android:label="MINI SOCCER"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Minibasketball"
+            android:label="MINI BASKETBALL"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Minivolleyball"
+            android:label="MINI VOLLEYBALL"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.India"
+            android:label="QUIZ BENGALURU"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.General"
+            android:label="QUIZ GENERAL"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Sudoku"
+            android:label="SUDOKU"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Writing"
+            android:label="CREATIVE WRITING"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Treasure"
+            android:label="TREASURE HUNT"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Lagori"
+            android:label="LAGORI"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Tugofwar"
+            android:label="TUG OF WAR"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Tutorial"
+            android:label=""
+            android:theme="@style/transparent" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Whatsnew"
+            android:label=""
+            android:theme="@style/transparent" >
+        </activity>
+        <activity
+            android:name="com.varchasva.varva.Sponsor"
+            android:label="@string/title_activity_sponsor" >
+        </activity>
+    </application>
+
+</manifest>

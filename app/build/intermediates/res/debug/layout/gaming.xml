@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b16"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+             <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/border2"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/event1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                   android:textColor="#FFEB3B"
+                   android:padding="20dp"
+                    android:text="Gaming"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="40dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                                android:layout_marginBottom="50dp"
+                
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/event2"
+                    android:layout_width="246dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:background="#5D4037"
+                    android:text="Counter Strike"
+                    android:onClick="counterstrike"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/event3"
+                    android:layout_width="246dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:background="#FF9800"
+                    android:text="NFS Most Wanted"
+                    android:onClick="nfs"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/event4"
+                    android:layout_width="246dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:background="#727272"
+                    android:text="Dota2"
+                    android:onClick="dota"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/event5"
+                    android:layout_width="246dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:background="#1976D2"
+                    android:text="Roadrash for girls"
+                    android:onClick="roadrash"
+                    android:textColor="#FFFFFF" />
+                
+                <Button
+                    android:id="@+id/event6"
+                    android:layout_width="246dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:background="#FFEB3B"
+                    android:text="FIFA"
+                    android:onClick="fifa"
+                    android:textColor="#FFFFFF" />
+                
+                <Button
+                    android:id="@+id/event7"
+                    android:layout_width="246dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:background="#8BC34A"
+                    android:text="Call of Duty"
+                    android:onClick="call"
+                    android:textColor="#FFFFFF" />
+                
+                <Button
+                    android:id="@+id/event8"
+                    android:layout_width="246dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:background="#9E9E9E"
+                    android:text="Spot Click"
+                    android:onClick="spotclick"
+                    android:textColor="#FFFFFF" />
+                
+                
+            </LinearLayout>
+<!--  
+            <TextView
+                android:id="@+id/line"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="parttion"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="General Rules:"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="              Sports bets are accepted on a &apos;non-runner no bet&apos; basis unless stated otherwise; in this case stakes will be refunded on a player or team withdrawn prior to the start of an event. If you have placed a winning bet on a sporting event run on a &apos;non-runner no bet&apos; basis and a different player or team is withdrawn, suspended or disqualified in that market, we may apply the equivalent to Tattersalls&apos; Rule 4 (c) to your winnings, based on the price of the selection withdrawn."
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="20dp" />
+                -->
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/D:/AS/varva/app/src/main/res/layout/gaming.xml -->

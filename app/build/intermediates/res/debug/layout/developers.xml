@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/develop"
+    android:orientation="vertical" >
+    
+    <ScrollView 
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+        
+        
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+       android:layout_gravity="center_horizontal"
+        android:background="@drawable/border3"
+        android:layout_centerHorizontal="true" >
+        
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+    <TextView
+        android:id="@+id/developers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Developers"
+        android:textColor="#FFEB3B"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="35dp" />
+    </LinearLayout>
+    </LinearLayout>
+        
+        
+        
+        <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp" >
+</LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border2"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp" >
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/sat" />
+       
+        
+
+        <TextView
+            android:id="@+id/sathish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autoLink="phone"
+            android:textColor="#FFEB3B"
+            android:clickable="true"
+            android:text="SATHISH.V\nSJBIT, 4TH SEM\nPH: 7353578127"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            
+             >
+    </TextView>
+    </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="30dp" >
+</LinearLayout>
+
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border2"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp" >
+        <ImageView
+            
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/yug" />
+       
+        
+
+        <TextView
+            android:id="@+id/yogesh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autoLink="phone"
+            android:clickable="true"
+            android:text="YOGESH AGARWAL\nSJBIT, 6TH SEM\nPH: 7829348070"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textColor="#FFEB3B"
+            android:layout_marginLeft="20dp"
+            
+             >
+    </TextView>
+    </LinearLayout>
+    </LinearLayout>
+   
+    
+     <TextView
+            
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:text="-----------------------------------------------------"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="30dp" 
+                android:textColor="#FFEB3B"/>
+     
+     
+          
+     <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+       android:layout_gravity="center_horizontal"
+        android:background="@drawable/border3"
+        android:layout_centerHorizontal="true" >
+        
+            <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp" >
+    <TextView
+        android:id="@+id/event4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Special Thanks To:"
+        android:textColor="#FFEB3B"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30dp" />
+    </LinearLayout>
+    </LinearLayout>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        >
+
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+      <TextView
+            android:id="@+id/event5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autoLink="phone"
+            android:clickable="true"
+            android:text="@string/thanks"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textColor="#FFEB3B"
+            
+            
+             >
+    </TextView>
+    </LinearLayout>
+    </LinearLayout>
+     
+     
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+<!-- From: file:/D:/AS/varva/app/src/main/res/layout/developers.xml -->

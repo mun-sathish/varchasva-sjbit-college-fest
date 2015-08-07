@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9C27B0">
+    
+    <ScrollView 
+     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+       android:layout_marginBottom="30dp"
+       android:layout_gravity="center_horizontal"
+        
+        android:layout_centerHorizontal="true" >
+    <TextView
+        android:id="@+id/event1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="CO-ORDINATORS"
+        android:textColor="#FFEB3B"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30dp" />
+    </LinearLayout> 
+      
+        
+        
+        <HorizontalScrollView 
+        android:layout_width="match_parent" android:layout_height="fill_parent">
+        
+    
+ <TableLayout 
+    android:id="@+id/tablelay1"
+    android:stretchColumns="1"
+    
+    
+   
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >  
+   
+   <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView    android:id="@+id/event3"     android:background="#C2185B"  android:textColor="#FFFFFF" android:padding="10dp" android:layout_width="wrap_content"  android:layout_height="wrap_content" android:text="NAME" ></TextView>
+ 		<TextView android:id="@+id/event4" android:background="#C2185B" android:textColor="#FFFFFF" android:padding="10dp"  android:layout_width="wrap_content"  android:layout_height="wrap_content" android:text="EVENT                 ->"></TextView>
+         <TextView android:id="@+id/event2" android:background="#C2185B" android:textColor="#FFFFFF" android:padding="10dp"  android:layout_width="wrap_content"  android:layout_height="wrap_content" android:text="MOBILE NO" ></TextView>
+   </TableRow>
+   
+   
+   
+   
+   <TableRow android:id="@+id/table2" android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView         android:background="@drawable/cell_shape" android:padding="10dp" android:id="@+id/txt1" android:layout_width="wrap_content"  android:layout_height="wrap_content" android:text="Karthik M" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp" android:id="@+id/eve1" android:layout_width="wrap_content"  android:layout_height="wrap_content" android:text="Group Dance Eastern"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:id="@+id/num1" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="8553182773" ></TextView>
+   </TableRow>  
+   
+   <TableRow  android:id="@+id/table3" android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:id="@+id/txt2" android:layout_width="wrap_content"  android:layout_height="wrap_content" android:text="Nagendra S" ></TextView>                                                                                                                                    
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp" android:id="@+id/eve2" android:layout_width="wrap_content"  android:layout_height="wrap_content" android:text="Group Dance Western"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:id="@+id/num2" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="8095343693" ></TextView>
+   </TableRow> 
+   
+   <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Manjushree Rao" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Jodi NO 1"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="9886187479" ></TextView>
+   </TableRow>
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Aditya" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Mad Ads"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="7411210156" ></TextView>                                                                                                        
+   </TableRow>
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Arjun N J" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Fashion Show"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="9481593410" ></TextView>
+   </TableRow>
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Sushmitha N" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Solo Dance"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="9535334678" ></TextView>
+   </TableRow>
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Purnima C S" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Adaptive (Solo Dance)"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="8884113186" ></TextView>
+   </TableRow>
+   
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Chiranthan HR\n" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Instrumental (Percussion \nand Non-Percussion)"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="8105925626\n" ></TextView>
+   </TableRow> 
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Sushmitha N" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Light Vocals"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="9535334678" ></TextView>
+   </TableRow>
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Ashish Kumar D R" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Street Dance"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="9480331970" ></TextView>
+   </TableRow>
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Md Umar" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Filmy Funda"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="7259247613" ></TextView>
+   </TableRow>
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Spoorthi B" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Spot Click"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="7406224897" ></TextView>
+   </TableRow>
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Md Umar" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Battle of the Bands"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="7259247613" ></TextView>
+   </TableRow>
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Ashish Kumar D R" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Stunt Show"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="9480331970" ></TextView>
+   </TableRow>
+   
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Amulya C K" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Rangoli"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="9620675976" ></TextView>
+   </TableRow>
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Amulya C K " ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Mehendi"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="9620675976" ></TextView>
+   </TableRow>
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Abhishree S" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Sketching"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="9986260723" ></TextView>
+   </TableRow>
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Nitish Kumar" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Sudoku"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="9008369814" ></TextView>
+   </TableRow>
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Aishwarya G" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Face Painting"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="9686403731" ></TextView>
+   </TableRow>
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Anupama N" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Collage"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="9981349802" ></TextView>
+   </TableRow>
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Sushmitha S" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Hogathon"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="9886734203" ></TextView>
+   </TableRow>
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Saurab Minj" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Slow Drag"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="8884399279" ></TextView>
+   </TableRow>
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Likith Gowda H S" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="DJ Night"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="9663578553" ></TextView>
+   </TableRow>
+   
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Rishab" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Mini Cricket"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="7411980911" ></TextView>
+   </TableRow>
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Rohith Vibhu" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Mini Soccer"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="9686223999" ></TextView>
+   </TableRow>
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Praveen Kumar S N" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Mini VolleyBall"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="9901861049" ></TextView>
+   </TableRow>
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Hemanth Kumar R" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Tug of War"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="9743268585" ></TextView>
+   </TableRow>
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Sumeer Kumar Jha" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Mini BasketBall"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="7829923149" ></TextView>
+   </TableRow>
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Kiran Kumar" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Treasure Hunt"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="9977239940" ></TextView>
+   </TableRow>
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Hemanth Kumar R" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Lagori"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="9743268585" ></TextView>
+   </TableRow>
+   
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Viren Sreeganesh S" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Counter Strike 1.6"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="9886108977" ></TextView>
+   </TableRow>
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Varun Kumar H N" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="NFS Most Wanted"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="9035467622" ></TextView>
+   </TableRow>
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Chiranthan H R" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Call of Duty 4"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="8105925626" ></TextView>
+   </TableRow>
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Siddarth Kumar" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="FIFA 11"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="7795997436" ></TextView>
+   </TableRow>
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Varun Kumar H N" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Road Rash"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="9035467622" ></TextView>
+   </TableRow>
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Chandan P" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Dota 2"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="8147772257" ></TextView>
+   </TableRow>
+   
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Harish M V\n" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Creative Writing(Kannada and\n English)"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="8088611667\n" ></TextView>
+   </TableRow>
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Vanuja T\n\nTarooqh" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Quiz(General and \nBengaluru)\n"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="9535334678\n\n9742577807" ></TextView>
+   </TableRow>
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Ankith Ranjan" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Dumb Charades"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="8123667054" ></TextView>
+   </TableRow>
+   
+    <TableRow   android:layout_width="match_parent"  android:layout_height="wrap_content">
+       <TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Amulya C K\n\nAbhishree S" ></TextView>
+ 		<TextView android:background="@drawable/cell_shape" android:padding="10dp"  android:layout_width="wrap_content"  												android:layout_height="wrap_content" android:text="Antakshari(Kannada and \nHindi)\n"></TextView>
+         <TextView android:background="@drawable/cell_shape" android:padding="10dp" android:layout_width="wrap_content" android:autoLink="phone" android:clickable="true" android:layout_height="wrap_content" android:text="9620675976\n\n9986260723" ></TextView>
+   </TableRow>
+   
+   
+    
+  
+   
+    </TableLayout>
+
+</HorizontalScrollView>
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
+
+    
+    
+
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:oneshot="true">
+    
+    <item android:drawable="@drawable/pic1"
+        android:duration="2000" />
+    
+    <item android:drawable="@drawable/antakshari"
+        android:duration="2000" />
+
+    <item android:drawable="@drawable/bands"
+        android:duration="2000" />
+    
+    <item android:drawable="@drawable/collage"
+        android:duration="2000" />
+    
+    <item android:drawable="@drawable/counter"
+        android:duration="2000" />
+    
+    <item android:drawable="@drawable/creative"
+        android:duration="2000" />
+    
+    <item android:drawable="@drawable/painting"
+        android:duration="2000" />
+    
+    <item android:drawable="@drawable/filmy"
+        android:duration="2000" />
+    
+    <item android:drawable="@drawable/hogathon"
+        android:duration="2000" />
+    
+    <item android:drawable="@drawable/nfs"
+        android:duration="2000" />
+    
+    <item android:drawable="@drawable/mehendi"
+        android:duration="2000" />
+    
+    <item android:drawable="@drawable/rangoli"
+        android:duration="2000" />
+    
+    <item android:drawable="@drawable/spot"
+        android:duration="2000" />
+    
+    <item android:drawable="@drawable/sudoku"
+        android:duration="2000" />
+    
+    <item android:drawable="@drawable/treasure"
+        android:duration="2000" />
+    
+    <item android:drawable="@drawable/tug"
+        android:duration="2000" />
+    
+    <item android:drawable="@drawable/soccer"
+        android:duration="2000" />
+
+    
+</animation-list>
+<!-- From: file:/D:/AS/varva/app/src/main/res/drawable/photoslide.xml -->

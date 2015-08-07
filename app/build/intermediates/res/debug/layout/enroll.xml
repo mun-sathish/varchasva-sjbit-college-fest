@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainlayout"
+    android:background="@drawable/b2"
+    android:orientation="vertical">
+
+    <ScrollView 
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+        
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cell_shape"
+        android:layout_margin="5dp">
+       
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student Name"
+            android:minWidth="115dp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+      
+
+        <EditText
+            android:id="@+id/student"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="2"
+            android:layout_marginLeft="2dp"
+    
+             >
+
+            
+        </EditText>
+
+    </LinearLayout>
+    
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+         android:layout_margin="5dp" 
+         android:background="@drawable/cell_shape">
+
+        <TextView
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="115dp"
+            android:text="College Name"
+            
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/college"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="2"
+             >
+
+            
+        </EditText>
+
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     
+         android:layout_margin="5dp"
+         android:background="@drawable/cell_shape">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="115dp"
+            android:text="Branch"
+            
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/Branch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+             />
+
+            
+    
+
+    </LinearLayout>
+    
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cell_shape" 
+         android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="115dp"
+            android:text="Event"
+            
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+         <Spinner
+            android:id="@+id/event"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+             />
+
+
+            
+ 
+
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cell_shape" 
+         android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="115dp"
+            android:text="Mobile No"
+            
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/mobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLength="10"
+            android:inputType="number"
+             >
+
+            
+        </EditText>
+
+    </LinearLayout>
+    
+    
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cell_shape" 
+         android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="115dp"
+            android:text="Email"
+            
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="2"
+             >
+
+            
+        </EditText>
+
+    </LinearLayout>
+    
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cell_shape" 
+         android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="115dp"
+            android:text="Date"
+            
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            
+             />
+
+
+
+
+    </LinearLayout>
+    
+    <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+         android:background="@drawable/cell_shape" 
+         android:layout_margin="5dp" >
+     
+        
+        <TextView
+            android:id="@+id/pricename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price\n"
+            android:layout_weight="1"
+             android:textAppearance="?android:attr/textAppearanceMedium">
+            </TextView>
+            
+        <TextView
+            android:id="@+id/pricers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_weight="1">
+            </TextView>
+    </LinearLayout>
+   
+    
+<LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="10dp" >
+</LinearLayout> 
+   
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+        >
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border3"
+            android:text="Submit"
+            android:padding="10dp"
+            android:textColor="#FFEB3B"
+            android:onClick="submit"
+            android:layout_marginLeft="50dp" />
+
+        <Button
+            android:id="@+id/reset"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border3"
+            android:textColor="#FFEB3B"
+            android:text="Reset" 
+            android:onClick="reset"
+            android:layout_marginLeft="65dp"/>
+
+    </LinearLayout>
+  </LinearLayout>
+  </ScrollView>
+</LinearLayout>
+
+<!-- From: file:/D:/AS/varva/app/src/main/res/layout/enroll.xml -->

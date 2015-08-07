@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b14"
+    android:orientation="vertical" >
+    
+    <ScrollView 
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       
+       android:layout_gravity="center_horizontal"
+        
+        android:layout_centerHorizontal="true" >
+        
+        <ImageView 
+             android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/register" />
+   
+    </LinearLayout>  
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true" >
+
+        <TextView
+            android:id="@+id/event1"
+            android:layout_width="246dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+           android:layout_marginTop="20dp"
+         android:textSize="20dp"
+            android:text="@string/register"
+            android:textColor="#FFEB3B" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_marginTop="50dp"
+            android:onClick="enroll"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:background="@drawable/enroll"
+             />
+      
+    </LinearLayout>
+
+    
+
+
+
+  </LinearLayout>
+  </ScrollView>
+</LinearLayout>
